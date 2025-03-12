@@ -9,14 +9,11 @@ public class WindInstrument extends Instrument {
     }
 
     public String play() {
-
-        return "Playing a wind instrument";
+        return "A wind instrument is playing";
     }
 
-    //mètodes propis
-    public String toString() {
-
-        return super.getName() + " instrument's price is " + super.getPrice() + " €";
+    public String toString(){
+        return super.getName() + " flute cost " + super.getPrice() + " €\n";
     }
 
 }

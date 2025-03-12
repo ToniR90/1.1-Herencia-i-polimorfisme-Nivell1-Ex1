@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
         // TODO Auto-generated method stub
 
-        StringedInstrument bass = new StringedInstrument("Baix Fender" , 1500);
+        StringedInstrument bass = new StringedInstrument("Fender Bass" , 1500);
         System.out.println(bass.play());
         System.out.println(bass.toString());
         WindInstrument flute = new WindInstrument("Yamaha" , 20);

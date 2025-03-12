@@ -4,19 +4,17 @@ public class PercussionInstrument extends Instrument {
         System.out.println("Initializing PercussionInstrument class ");
     }
 
-    public PercussionInstrument(String name , int price) {
-        super(name , price);
+    public PercussionInstrument(String name, int price) {
+        super(name, price);
     }
 
 
-    //mètodes generals
     public String play() {
-        return "Playing a percussion instrument";
+        return "A percussion instrument is playing";
     }
 
-    //mètodes propis
-    public String toString() {
-        return super.getName() + " instrument's price is " + super.getPrice() + " €";
+    public String toString(){
+        return super.getName() + " drums cost " + super.getPrice() + " €\n";
     }
-
 }
+

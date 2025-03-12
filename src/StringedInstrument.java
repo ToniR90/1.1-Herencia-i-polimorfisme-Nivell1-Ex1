@@ -9,10 +9,10 @@ public class StringedInstrument extends Instrument {
     }
 
     public String play() {
-        return "Playing a stringed instrument";
+        return "A stringed instrument is playing";
     }
 
     public String toString() {
-        return super.getName() + " instrument's price is " + super.getPrice() + " €";
+        return super.getName() + " cost " + super.getPrice() + " €\n";
     }
 }
